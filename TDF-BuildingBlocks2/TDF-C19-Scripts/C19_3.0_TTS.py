@@ -1,6 +1,6 @@
 import subprocess
 
-text = "I speak, therefore, I am."
+text = "What do you want me to say?"
 language = "en" #try en, en-us, en-sc, en-rp, en-n, en-rp, en-wm, zh (mandarin), el (greek), es (spanish)
 genderIdentity = "+f3" #m1 - m7, f1 - f5
 # add +croak or +whisper for other effects

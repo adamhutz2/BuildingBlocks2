@@ -196,14 +196,6 @@ def main(ARGS):
                 wav_data = bytearray()
             text = stream_context.finishStream()
             print("Recognized: %s" % text)
-            text_includes = text.split()
-            print("Text includes: " + str(text_includes))
-            if 'yes' in text_includes:
-                print("DO SOMETHING IN RESPONSE TO 'YES' HERE")
-            if 'no' in text_includes:
-                print("DO SOMETHING IN RESPONSE TO 'NO' HERE")
-            if 'quit' in text_includes:
-                break
             stream_context = model.createStream()
 
 if __name__ == '__main__':
